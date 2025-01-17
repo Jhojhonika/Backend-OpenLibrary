@@ -1,4 +1,4 @@
- Step 1: Use an official OpenJDK 21 image as the base image (Java 21 in this example)
+# Step 1: Use an official OpenJDK 21 image as the base image (Java 21 in this example)
 FROM openjdk:21-jdk-slim
 
 # Step 2: Set the working directory inside the container to /app
