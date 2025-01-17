@@ -5,7 +5,7 @@ FROM openjdk:21-jdk-slim
 WORKDIR /app
 
 # Step 3: Copy the Spring Boot JAR file to the container (we'll use the target/ folder)
-COPY target/book-management-0.0.1-SNAPSHOT.jar app.jar
+COPY book-management-0.0.1-SNAPSHOT.jar app.jar
 
 # Step 4: Expose port 8081 so we can access the app externally 
 EXPOSE 8081 
